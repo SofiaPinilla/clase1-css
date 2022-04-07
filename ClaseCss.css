@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+/* p {
+    background-color: blueviolet;
+}
+
+h2 {
+    background-color: antiquewhite;
+}
+
+p {
+    background-color: burlywood;
+}
+
+#parrafo {
+    background-color: beige;
+}
+
+.clase_parrafo2 {
+    background-color:black;
+}
+
+.clase_parrafo {
+    background-color: chartreuse;
+}
+
+h3 {
+    background-color: antiquewhite !important;
+}
+
+#encabezado3 {
+    background-color: blueviolet;
+}
+
+.clase3 {
+    background-color: black;
+} */
+
+/* p {
+    font-family: 'Grape Nuts', cursive;
+} */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* [type="text"] {
+    width: 200px;
+}
+
+main > h2 {
+    font-size: 5em;
+} */
+
+/* h1 ~ h2 {
+    background-color: brown;
+} */
+
+li:nth-child(even) {
+    background-color: blueviolet;
+}
+
+/* div ~ p {
+    background-color: brown;
+} */
+
+h1::after {
+    content: "👌"
+}
+
+h1::before{
+    content: "👌"
+}
+
+button {
+    padding: 2em;
+    margin: 2em;
+    transition: all 2s ease;
+}
+
+button:hover {
+    transform: rotate(90deg);
+}
